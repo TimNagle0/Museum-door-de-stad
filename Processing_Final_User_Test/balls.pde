@@ -1,7 +1,15 @@
 //Array of words that can appear next to the balls
 String[] words = {"Past","Now", "Future","1920 to 2020","Eindhoven","Woensel", "Tongelre", "Stratum", "Gestel", "Strijp"};
 
-//Class for the animation that runs when on the start screen
+/*
+  Class for the animation that runs when on the start screen
+  Based of "Connect The Dots" by nicetryharshit
+  http://www.openprocessing.org/sketch/405226
+  Licensed under Creative Commons Attribution ShareAlike
+  https://creativecommons.org/licenses/by-sa/3.0
+  https://creativecommons.org/licenses/GPL/2.0/
+*/
+
 class Ball {
   color ballColor;
   float xPos, yPos;
